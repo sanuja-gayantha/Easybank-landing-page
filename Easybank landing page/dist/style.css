@@ -213,12 +213,14 @@ button:hover::before, .button:hover::before {
   left: 0;
   bottom: 0;
   background-image: linear-gradient(hsl(233, 26%, 24%), transparent);
+  z-index: 1;
 }
 .header nav {
   position: relative;
   background: hsl(0, 0%, 100%);
   padding-top: 1.0625rem;
   padding-bottom: 1.0625rem;
+  z-index: 2;
 }
 .header__logo img {
   width: 8.8125rem;
@@ -244,6 +246,7 @@ button:hover::before, .button:hover::before {
   margin-top: 1.5rem;
   padding: 1.625rem;
   border-radius: 5px;
+  z-index: 2;
 }
 .header__menu a {
   display: block;
